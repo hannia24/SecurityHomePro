@@ -3,22 +3,26 @@
 
       <!-- LOGO -->
       <div id="logo">
+        <a routerLink="inicio">
         <img
-          src="assets\images\segurityhome.png"
+          src="assets\images\home.png"
           class="app-logo"
           alt="LogoTipo"
         />
-        <span id="brand"> <strong>Security</strong>Home </span>
+      </a>
       </div>
 
       <!-- MENU -->
       <nav id="menu">
         <ul>
           <li>
-            <a href="#">Inicio</a> 
+            <a routerLink="visita">visita</a>
           </li>
           <li>
-            <a href="#">Servicios</a>
+            <a routerLink="addservice">Servicios</a>
+          </li>
+          <li>
+            <a routerLink="perfil">perfil</a>
           </li>
         </ul>
       </nav>
@@ -27,3 +31,5 @@
 
     </div>
   </header>
+
+  <router-outlet></router-outlet>
