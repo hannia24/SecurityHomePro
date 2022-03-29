@@ -20,13 +20,12 @@ export const routes = [
       {path: 'addservice', component: AddserviceComponent},
       {path: 'contraolvidada', component: ContraolvidadaComponent},
       {path: 'visita', component: VisitaComponent},
-
-
     ],
   },
   {
     path: 'contraolvidada', component: ContraolvidadaComponent
   },
+
 
   //not lazy load components
   //{ path: '**', redirectTo: 'home-page' },

@@ -4,6 +4,7 @@ import { RouterModule } from '@angular/router';
 import { PaginasModule } from '../paginas.module';
 import { routes } from 'src/routes/routes';
 import { HomepageComponent } from './homepage.component';
+import { FormsModule } from '@angular/forms';
 
 
 
@@ -11,7 +12,8 @@ import { HomepageComponent } from './homepage.component';
   declarations: [HomepageComponent],
   imports: [
     CommonModule,
-    RouterModule
+    RouterModule,
+    FormsModule
   ]
 })
 export class HomepageModule { }
